@@ -13,7 +13,7 @@ AWS Pricing Calculator is a free web-based planning tool that you can use to cre
 -   Plan your AWS spend.
 -   Find cost saving opportunities.
 
-**Starting our budget**
+## **Starting our budget**
 
 Please go this link to start using AWS Pricing Calculator: [https://calculator.aws/\#/](https://calculator.aws/#/)
 
