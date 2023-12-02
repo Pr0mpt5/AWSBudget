@@ -161,7 +161,7 @@ The information below is a tutorial according to the use of the services indicat
 ![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/69407fb1-a7ca-4476-ac42-edb885439f02)
 
 -   In **DynamoDB on-demand capacity feature**, DynamoDB offers two table classes designed to help you optimize for cost. The DynamoDB **Standard** table class is the default and recommended for the vast majority of workloads. The DynamoDB Standard-Infrequent Access (DynamoDB Standard-IA) table class is optimized for tables that store data that is accessed infrequently, where storage is the dominant cost. Each table class offers different pricing for data storage as well as read and write requests. You can select the most cost-effective table class based on your table’s storage requirements and data access patterns. Learn more about DynamoDB table classes in the DynamoDB Developer Guide.
--   
+   
 -   There are also options to specify **Data Storage** size, **On-demand write settings**, and **On-demand read settings**.
 
 ![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/35b927ea-6df9-4dd3-992a-06549a5f99e4)
@@ -188,27 +188,31 @@ The information below is a tutorial according to the use of the services indicat
 ## 8.  **Amazon Athena**
 -   In **find service** type **Amazon Athena** and choose the **configure** button.
 
-    ![A screenshot of a computer Description automatically generated](media/a61581ba1944959999432f80487a6ba4.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/2423ba5a-51d9-4282-be75-184fe61dce59)
+
 
 -   In the **Configure Amazon Athena** window, in the **Description** option name the service for example: “Budget Amazon Athena”, then **Choose the location type** to **Region**, **Choose the region** in this case is US East (Ohio).
 
-    ![A screenshot of a computer Description automatically generated](media/2a618e8f85c65ab816a09d02b000dd25.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/6a84b0cb-5f1a-4137-8c3c-b2dcde692d6e)
 
 -   Amazon Athena is a serverless, interactive analytics service built on open-source frameworks. Athena provides a simplified, flexible way to analyze petabytes of data where it lives. With Athena, you pay only for what you use. There are no upfront fees and no long-term commitments.
 -   In SQL Queries windows, in SQL queries with per query pricing type the number of queries, the amount of data scanned per query and the unit of each option.
 
-    **![A screenshot of a computer Description automatically generated](media/57025c1579567714da4f0e1a83e5b059.png)**
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/cf9fbec4-193a-4c54-85ad-ef1c4eb57bfd)
 
-    **![A screenshot of a computer screen Description automatically generated](media/46f2b6353b14f0419ca096b9bab1fbb1.png)**
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/98b6161c-8c6e-4ec2-aee9-eae6ff976765)
+
 
 -   In Spark for Amazon Athena, you only pay for the time that your Apache Spark application takes to run. You are charged an hourly rate based on the number of data Processing Units (DPUs) used to run your Apache Spark application. A single DPU provides 4 vCPU and 16GB of memory.
 
-    **![A screenshot of a computer Description automatically generated](media/8774ad4706252bbf422d57d582867a38.png)**
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/3029a7d0-a585-4a29-aecc-f7d890139cb3)
 
-    **Conclusion**
 
-    Here you will find a sample of a Budget using **AWS Pricing Calculator,** including the pricing of all the services we were using for this project. Please feel free to use it and update the content of this budget.
+## **Conclusion**
 
-    [https://calculator.aws/\#/estimate?id=ef2bcb54bd9782531d5345a4cb1f2c1f21f19950](https://calculator.aws/#/estimate?id=ef2bcb54bd9782531d5345a4cb1f2c1f21f19950)
+Here you will find a sample of a Budget using **AWS Pricing Calculator,** including the pricing of all the services we were using for this project. Please feel free to use it and update the content of this budget.
 
-    ![A screenshot of a computer Description automatically generated](media/2b0926722effc59be57b00e98eb9950d.jpeg)
+[https://calculator.aws/\#/estimate?id=ef2bcb54bd9782531d5345a4cb1f2c1f21f19950](https://calculator.aws/#/estimate?id=ef2bcb54bd9782531d5345a4cb1f2c1f21f19950)
+
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/b41bd567-6fe0-4202-9e7d-3ed940459600)
+
