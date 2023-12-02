@@ -3,7 +3,7 @@ Tutorial of the using of AWS Pricing Calculator
 
 ## Project Budget: **Evaluate cloud software for analytics.**
 
-**AWS Pricing Calculator**
+# **AWS Pricing Calculator**
 
 AWS Pricing Calculator is a free web-based planning tool that you can use to create cost estimates for using AWS services. You can use AWS Pricing Calculator for the following use cases:
 
