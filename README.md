@@ -36,7 +36,8 @@ The information below is a tutorial according to the use of the services indicat
 ## 1.  **Elastic Load Balancer**
 -   In **find service** type **Elastic Load Balancing** and choose the **configure** button.
 
-    **![A screenshot of a computer Description automatically generated](media/ffe5fdedb7d0352558ec0d740d4fa684.png)**
+    ![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/4898f61c-7d50-44db-b2f9-9bd8024a1f46)
+
 
 -   In the **Configure Elastic Load Balancer** window, in the **Description** option named the service for example: “Budget ELB”, then **Choose the location type** to **Region**, and **Choose the region** in this case is US East (Ohio)
 -   In **Elastic Load Balancing** choose **Application Load Balancer** and the **Application Load Balancer feature** as **Load Balancer in AWS Region**
