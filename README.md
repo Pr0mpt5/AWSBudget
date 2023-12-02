@@ -86,20 +86,25 @@ The information below is a tutorial according to the use of the services indicat
 ## 3.  **Amazon Kinesis Data Firehose**
 -   In **find service** type **Amazon Kinesis Data Firehose** and choose the **configure** button.
 
-**![A screenshot of a computer Description automatically generated](media/8a61fe4ff2133c6e55f566f555520132.png)**
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/0ce83b5b-48ce-4ee5-93cd-d60af3326178)
+
 
 -   In the **Configure Amazon Kinesis Firehose** window, in the **Description** option name the service for example: “Budget Amazon Kinesis Firehose”, then **Choose the location type** to **Region**, and **Choose the region** in this case is US East (Ohio)
 
-    ![A screenshot of a login box Description automatically generated](media/b66574af76544461352c9359453fb972.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/ddecda84-5bc7-44bb-ac0f-875bc1b13506)
+
 
 -   **Data Ingestion** pricing is based on the volume of data ingested into Amazon Kinesis Data Firehose, which is calculated as the number of data records you send to the service, times the size of each record rounded up to the nearest 5KB. For example, if your data records are 42KB each, Kinesis Data Firehose will count each record as 45KB of data ingested. Usage charges associated with Amazon S3, Amazon Redshift, Amazon Elasticsearch Service, and Splunk are billed separately. Data transfer usage charges for cross-region and to the internet are billed separately.
 
-    ![A screenshot of a computer Description automatically generated](media/b67decc8bd967edc8b515ade221b77f6.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/a1e7c57b-020c-4645-bf21-781663ba345e)
 
-    ![A screenshot of a computer Description automatically generated](media/015684f5a274503b156aed5b0e3cb56d.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/a6ba4221-35ff-44ce-9890-d3402d6813b7)
+
 
 -   **Data Format Conversion** pricing is based on the volume of incoming data. It works only if delivery stream to convert the incoming data into Apache Parquet or Apache ORC format is configured before the data is delivered to destinations.
+  
 -   **Dynamic Partitioning** is used to continuously group data by keys in your records (such as “customer_id”), and have data delivered to S3 prefixes mapped to each key. With Dynamic Partitioning, you pay per GB delivered to S3, per object, and optionally per JQ processing hour for data parsing.
+  
 -   **Data Processed to VPC** pricing is based on the volume of data ingested into Amazon Kinesis Firehose. If you configure your delivery stream to deliver to a destination that resides in a VPC, you will be charged based on the volume of data processed via the VPC and for the number of hours that your delivery stream is active in each subnet.
   
 ## 4.  **Amazon Simple Storage Service (S3) (Object Lambda)**
