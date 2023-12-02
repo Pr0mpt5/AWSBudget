@@ -33,6 +33,7 @@ The information below is a tutorial according to the use of the services indicat
 
 
 -   In the **Find service** option we will look for the services we want to add to the budget.
+
 ## 1.  **Elastic Load Balancer**
 -   In **find service** type **Elastic Load Balancing** and choose the **configure** button.
 
