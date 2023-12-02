@@ -109,73 +109,81 @@ The information below is a tutorial according to the use of the services indicat
   
 ## 4.  **Amazon Simple Storage Service (S3) (Object Lambda)**
 -   In **find service** type **Amazon Simple Storage Service** and choose the **configure** button.
+  
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/e28b7b3e-6165-45fa-baa3-73c7e4582458)
 
-![A screenshot of a computer Description automatically generated](media/1cc31d592afb78d00ec300fd1013eca1.png)
 
--   In the **Configure Amazon Simple Storage Service** window, in the **Description** option name the service for example: “Budget S3 Object Lambda”, then **Choose the location type** to **Region**, and **Choose the region** in this case is US East (Ohio)
+-   In the **Configure Amazon Simple Storage Service** window, in the **Description** option name the service for example: “Budget S3 Object Lambda”, then **Choose the location type** to **Region**, and **Choose the region** in this case is US East (Ohio).
+  
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/d8061316-5f22-49bc-ad05-a7e6dbbaf0ec)
 
-![A screenshot of a computer Description automatically generated](media/cb9f450d9e77afcc398ac754e1663b98.png)
 
 -   In **Select S3 Storage classes and other features** choose **S3 Object Lambda** and **Data transfer**.
 
-**![A screenshot of a computer Description automatically generated](media/3d142cfbc0d1a0532ab6df94fcfca855.png)**
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/85c00537-877e-424b-98fa-21129d8935fb)
+
 
 -   In **S3 Object Lambda** add your own code to S3 GET requests to modify and process data as it is returned to an application. For the first time, you can use custom code to modify the data returned by standard S3 GET requests to filter rows, dynamically resize images, redact confidential data, and much more. Powered by AWS Lambda functions, your code runs on infrastructure that is fully managed by AWS, eliminating the need to create and store derivative copies of your data or to run expensive proxies, all with no changes required to applications.
 
-    ![A screenshot of a computer Description automatically generated](media/6f9490877e830e535a4ad07898d339a0.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/d21cd102-21d8-4ef5-9422-4251c467338a)
 
 -   In **Data Transfer** enter the amount of inbound data transfer by TB or GB per month, same for outbound data transfer.
 
-    ![A screenshot of a computer screen Description automatically generated](media/63b5ea7912c182a81db59f1b9c1dd2ec.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/419e66ec-f32d-4d3c-a297-349d7ff9dc3e)
+
 
 ## 5.  **AWS Lambda**
 -   In **find service** type **AWS Lambda** and choose the **configure** button.
 
-    ![A screenshot of a computer Description automatically generated](media/e9d9781c04c21a904bbb9ab7f3151cca.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/3bccf69b-29c7-4c60-9978-5954af3f2cb5)
 
 -   In the **Configure AWS Lambda** window, in the **Description** option name the service for example: “Budget S3 Object Lambda”, then **Choose the location type** to **Region**, **Choose the region** in this case is US East (Ohio), and Choose **Lambda Function – Include Free Tier.**
 
-    **![A screenshot of a computer Description automatically generated](media/dfab61b8608c35b49ebbc9747682bce5.png)**
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/eab1f8cf-09e0-4c26-894b-5f0e51e0d08d)
 
 -   In **Service settings**, set the type of architecture, number of requests, duration of each request, the amount of memory of each request and the amount of ephemeral storage allocated.
 
-    ![A screenshot of a computer Description automatically generated](media/e0594c70d9fb4addb076ceddd37b93f2.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/5d922374-629d-4ecd-a21e-55745f9f43e9)
 
 -   **Provision Concurrency** also can be enabled for Lambda functions for greater control over the performance of your serverless applications. When enabled, Provisioned Concurrency keeps functions initialized and hyper-ready to respond in double-digit milliseconds. You pay for the amount of concurrency that you configure and for the period of time that you configure it.
+  
 -   **Lambda@Edge** currently is not free tier. You are charged for the total number of requests across all your functions. Lambda@Edge counts a request each time it starts executing in response to a CloudFront event globally.
+  
 -   **Lambda HTTP Response Streaming**, AWS Lambda functions can return an HTTP response stream when invoked via the InvokeWithResponseStream API or through a function URL using the ResponseStream invoke mode. When using HTTP response streaming, you are charged for each GB written to the response stream by your function. You can stream the first 6MB per request at no cost.
   
 ## 6.  **Amazon DynamoDB**
 -   In **find service** type **AWS DynamoDB** and choose the **configure** button.
 
-![A screenshot of a computer Description automatically generated](media/f9dc9a9b02194753a3a880970948abb3.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/6af2e14b-f1e7-4c77-acdb-74ba13ce6154)
 
 -   In the **Configure AWS DynamoDB** window, in the **Description** option name the service for example: “Budget Amazon DynamoDB”, then **Choose the location type** to **Region**, **Choose the region** in this case is US East (Ohio) and **Choose DynamoDB features** in this case **DynamoDB on-demand capacity**.
 
-![A screenshot of a computer Description automatically generated](media/71078a3f3096dffab4e12453ca1f1295.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/69407fb1-a7ca-4476-ac42-edb885439f02)
 
 -   In **DynamoDB on-demand capacity feature**, DynamoDB offers two table classes designed to help you optimize for cost. The DynamoDB **Standard** table class is the default and recommended for the vast majority of workloads. The DynamoDB Standard-Infrequent Access (DynamoDB Standard-IA) table class is optimized for tables that store data that is accessed infrequently, where storage is the dominant cost. Each table class offers different pricing for data storage as well as read and write requests. You can select the most cost-effective table class based on your table’s storage requirements and data access patterns. Learn more about DynamoDB table classes in the DynamoDB Developer Guide.
 -   
 -   There are also options to specify **Data Storage** size, **On-demand write settings**, and **On-demand read settings**.
 
-![A screenshot of a computer Description automatically generated](media/a06a8c72572e3e96fdf65cfbb5218149.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/35b927ea-6df9-4dd3-992a-06549a5f99e4)
 
 ## 7.  **Amazon Simple Storage Service (S3) Standard**
 -   In **find service** type **Amazon Simple Storage Service** and choose the **configure** button.
 
-![A screenshot of a computer Description automatically generated](media/1cc31d592afb78d00ec300fd1013eca1.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/57212d7d-4fa9-4ce9-9169-67450b7d5609)
 
 -   In the **Configure Amazon Simple Storage Service** window, in the **Description** option name the service for example: “Budget Amazon S3”, then **Choose the location type** to **Region**, **Choose the region** in this case is US East (Ohio) and Choose in **Select S3 Storage Classes and other features** the **S3 Standard option.**
-
-    ![A screenshot of a computer Description automatically generated](media/b1d2b84ff1e64b8372263ffeab6aeb1b.png)
+  
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/58a8adde-06d1-4963-ae06-1030fdb0fed3)
 
 -   In **S3 Standard feature** set the **S3 Standard** storage size and the unit to use per month. **S3 Standard** is best used for general-purpose of frequently accessed data.
 
-    ![A screenshot of a computer Description automatically generated](media/a375ddc15b1187ee3f5122c5dafe5a31.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/ae4bd225-553a-444f-8a0a-0ad0b4689de5)
+
 
 -   Calculations for 50GB storage
+  
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/58b34e33-289d-438f-99d4-4adde01cbba7)
 
-    ![A black text on a white background Description automatically generated](media/6b268f69ef3f80cae1061e75f6151c1f.png)
 
 ## 8.  **Amazon Athena**
 -   In **find service** type **Amazon Athena** and choose the **configure** button.
