@@ -51,15 +51,15 @@ The information below is a tutorial according to the use of the services indicat
 -   In **Service Settings**, in the **Number of Application Load Balancers** option put the number of Application Load Balancers.
 -   Show calculations will show us the current cost per hour, in a month.
 
-    ![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/574525de-0463-450d-ac4e-dbf60b90ee74)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/574525de-0463-450d-ac4e-dbf60b90ee74)
 
 
 -   Load Balancer Capacity Units (LCUs) measures the dimensions on which the Application Load Balancer processes your traffic (averaged over an hour). The four dimensions are: new connections, active connections, processed bytes, and rule evaluations. You are charged only on the dimension with the highest usage.
 
-    ![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/d7ae3763-784f-4779-ae8b-87990d95dadf)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/d7ae3763-784f-4779-ae8b-87990d95dadf)
 
 
-    ![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/12b9d59d-d505-4f1b-88b7-c5c6ec261241)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/12b9d59d-d505-4f1b-88b7-c5c6ec261241)
 
 
 1.  **Amazon API Gateway**
