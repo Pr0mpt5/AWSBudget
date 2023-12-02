@@ -62,7 +62,7 @@ The information below is a tutorial according to the use of the services indicat
 ![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/12b9d59d-d505-4f1b-88b7-c5c6ec261241)
 
 
-## 1.  **Amazon API Gateway**
+## 2.  **Amazon API Gateway**
 -   In **find service** type **Amazon API Gateway** and choose the **configure** button.
 
 ![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/60809810-207f-4423-9626-0a6a4570a76d)
