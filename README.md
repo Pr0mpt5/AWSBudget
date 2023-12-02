@@ -1,5 +1,8 @@
 ## AWS Budget
 Tutorial of the using of AWS Pricing Calculator 
+Creation Date: 11/30/2023
+Created by: Jhon A.
+
 
 ## Project Budget: **Evaluate cloud software for analytics.**
 
