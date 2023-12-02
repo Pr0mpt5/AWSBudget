@@ -82,7 +82,8 @@ The information below is a tutorial according to the use of the services indicat
 
 
 -   There are also options to use REST APIs and WebSocket APIs for both you only pay when the APIs are in use. There are no minimum fees or upfront commitments. You pay for the API calls you receive, and the amount of data transferred out. There are no data transfer out charges for Private APIs. However, AWS PrivateLink charges apply when using Private APIs in API Gateway. API Gateway also provides optional data caching charged at an hourly rate that varies based on the cache size you select. For WebSocket APIs, you pay for messages sent and received and the total number of connection minutes. You may send and receive messages up to 128 kilobytes (KB) in size. Messages are metered in 32 KB increments. So, a 33 KB message is metered as two messages.
-1.  **Amazon Kinesis Data Firehose**
+
+## 3.  **Amazon Kinesis Data Firehose**
 -   In **find service** type **Amazon Kinesis Data Firehose** and choose the **configure** button.
 
 **![A screenshot of a computer Description automatically generated](media/8a61fe4ff2133c6e55f566f555520132.png)**
@@ -100,7 +101,8 @@ The information below is a tutorial according to the use of the services indicat
 -   **Data Format Conversion** pricing is based on the volume of incoming data. It works only if delivery stream to convert the incoming data into Apache Parquet or Apache ORC format is configured before the data is delivered to destinations.
 -   **Dynamic Partitioning** is used to continuously group data by keys in your records (such as “customer_id”), and have data delivered to S3 prefixes mapped to each key. With Dynamic Partitioning, you pay per GB delivered to S3, per object, and optionally per JQ processing hour for data parsing.
 -   **Data Processed to VPC** pricing is based on the volume of data ingested into Amazon Kinesis Firehose. If you configure your delivery stream to deliver to a destination that resides in a VPC, you will be charged based on the volume of data processed via the VPC and for the number of hours that your delivery stream is active in each subnet.
-1.  **Amazon Simple Storage Service (S3) (Object Lambda)**
+  
+## 4.  **Amazon Simple Storage Service (S3) (Object Lambda)**
 -   In **find service** type **Amazon Simple Storage Service** and choose the **configure** button.
 
 ![A screenshot of a computer Description automatically generated](media/1cc31d592afb78d00ec300fd1013eca1.png)
@@ -121,7 +123,7 @@ The information below is a tutorial according to the use of the services indicat
 
     ![A screenshot of a computer screen Description automatically generated](media/63b5ea7912c182a81db59f1b9c1dd2ec.png)
 
-1.  **AWS Lambda**
+## 5.  **AWS Lambda**
 -   In **find service** type **AWS Lambda** and choose the **configure** button.
 
     ![A screenshot of a computer Description automatically generated](media/e9d9781c04c21a904bbb9ab7f3151cca.png)
@@ -137,7 +139,8 @@ The information below is a tutorial according to the use of the services indicat
 -   **Provision Concurrency** also can be enabled for Lambda functions for greater control over the performance of your serverless applications. When enabled, Provisioned Concurrency keeps functions initialized and hyper-ready to respond in double-digit milliseconds. You pay for the amount of concurrency that you configure and for the period of time that you configure it.
 -   **Lambda@Edge** currently is not free tier. You are charged for the total number of requests across all your functions. Lambda@Edge counts a request each time it starts executing in response to a CloudFront event globally.
 -   **Lambda HTTP Response Streaming**, AWS Lambda functions can return an HTTP response stream when invoked via the InvokeWithResponseStream API or through a function URL using the ResponseStream invoke mode. When using HTTP response streaming, you are charged for each GB written to the response stream by your function. You can stream the first 6MB per request at no cost.
-1.  **Amazon DynamoDB**
+  
+## 6.  **Amazon DynamoDB**
 -   In **find service** type **AWS DynamoDB** and choose the **configure** button.
 
 ![A screenshot of a computer Description automatically generated](media/f9dc9a9b02194753a3a880970948abb3.png)
@@ -152,7 +155,7 @@ The information below is a tutorial according to the use of the services indicat
 
 ![A screenshot of a computer Description automatically generated](media/a06a8c72572e3e96fdf65cfbb5218149.png)
 
-1.  **Amazon Simple Storage Service (S3) Standard**
+## 7.  **Amazon Simple Storage Service (S3) Standard**
 -   In **find service** type **Amazon Simple Storage Service** and choose the **configure** button.
 
 ![A screenshot of a computer Description automatically generated](media/1cc31d592afb78d00ec300fd1013eca1.png)
@@ -169,7 +172,7 @@ The information below is a tutorial according to the use of the services indicat
 
     ![A black text on a white background Description automatically generated](media/6b268f69ef3f80cae1061e75f6151c1f.png)
 
-1.  **Amazon Athena**
+## 8.  **Amazon Athena**
 -   In **find service** type **Amazon Athena** and choose the **configure** button.
 
     ![A screenshot of a computer Description automatically generated](media/a61581ba1944959999432f80487a6ba4.png)
