@@ -44,18 +44,22 @@ The information below is a tutorial according to the use of the services indicat
 -   In the **Configure Elastic Load Balancer** window, in the **Description** option named the service for example: “Budget ELB”, then **Choose the location type** to **Region**, and **Choose the region** in this case is US East (Ohio)
 -   In **Elastic Load Balancing** choose **Application Load Balancer** and the **Application Load Balancer feature** as **Load Balancer in AWS Region**
 
-    **![A screenshot of a computer Description automatically generated](media/c08d4fcc584844a213435bbdfa94b507.png)**
+   ![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/a3c6221d-2f68-41a9-b193-ceac95d431b1)
+
 
 -   In **Service Settings**, in the **Number of Application Load Balancers** option put the number of Application Load Balancers.
 -   Show calculations will show us the current cost per hour, in a month.
 
-    ![A screenshot of a calculator Description automatically generated](media/d8859bb6ea86a7b7e2f68852709134bf.png)
+    ![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/574525de-0463-450d-ac4e-dbf60b90ee74)
+
 
 -   Load Balancer Capacity Units (LCUs) measures the dimensions on which the Application Load Balancer processes your traffic (averaged over an hour). The four dimensions are: new connections, active connections, processed bytes, and rule evaluations. You are charged only on the dimension with the highest usage.
 
-    ![A screenshot of a computer Description automatically generated](media/26b848e639a8d675957851030b919909.png)
+    ![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/d7ae3763-784f-4779-ae8b-87990d95dadf)
 
-    ![A close-up of a white sheet Description automatically generated](media/54375de9db986a2b09a9f15a3cebe9d5.png)
+
+    ![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/12b9d59d-d505-4f1b-88b7-c5c6ec261241)
+
 
 1.  **Amazon API Gateway**
 -   In **find service** type **Amazon API Gateway** and choose the **configure** button.
