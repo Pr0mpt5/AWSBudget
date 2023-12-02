@@ -35,6 +35,7 @@ The information below is a tutorial according to the use of the services indicat
 -   In the **Find service** option we will look for the services we want to add to the budget.
 
 ## 1.  **Elastic Load Balancer**
+
 -   In **find service** type **Elastic Load Balancing** and choose the **configure** button.
 
     ![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/4898f61c-7d50-44db-b2f9-9bd8024a1f46)
