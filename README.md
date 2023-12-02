@@ -19,7 +19,7 @@ Please go this link to start using AWS Pricing Calculator: [https://calculator.a
 
 The information below is a tutorial according to the use of the services indicated in the AWS Architecture Diagram.
 
-![A diagram of a diagram Description automatically generated](media/cf35c2144f61a0f9e98aac7b82d5a54f.png)
+![Alt text] (Picture 1.png)
 
 -   In AWS Pricing Calculator main screen do click in **create estimate** option.
 
