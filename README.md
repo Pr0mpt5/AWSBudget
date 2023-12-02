@@ -24,7 +24,8 @@ The information below is a tutorial according to the use of the services indicat
 
 -   In AWS Pricing Calculator main screen do click in **create estimate** option.
 
-**![A screenshot of a calculator Description automatically generated](media/1c10f80edc1f9aa9188290820e17c80c.png)**
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/3b586088-c47c-4fa7-9cce-42151a03085f)
+
 
 -   In **Add service** window we will choose the location type and region where the services are located.
 
