@@ -29,7 +29,8 @@ The information below is a tutorial according to the use of the services indicat
 
 -   In **Add service** window we will choose the location type and region where the services are located.
 
-![A screenshot of a computer Description automatically generated](media/a606c825a92db8e5977094b04fed5ed8.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/f236d632-e902-4258-bc52-77330ae9ec26)
+
 
 -   In the **Find service** option we will look for the services we want to add to the budget.
 1.  **Elastic Load Balancer**
