@@ -1,4 +1,4 @@
-# AWS Budget
+## AWS Budget
 Tutorial of the using of AWS Pricing Calculator 
 
 # Project Budget: **Evaluate cloud software for analytics.**
