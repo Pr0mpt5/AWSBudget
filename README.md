@@ -62,20 +62,24 @@ The information below is a tutorial according to the use of the services indicat
 ![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/12b9d59d-d505-4f1b-88b7-c5c6ec261241)
 
 
-1.  **Amazon API Gateway**
+## 1.  **Amazon API Gateway**
 -   In **find service** type **Amazon API Gateway** and choose the **configure** button.
 
-    ![A screenshot of a computer Description automatically generated](media/59bd2928fbbc926ba0f48565a46b2c85.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/60809810-207f-4423-9626-0a6a4570a76d)
+
 
 -   In the **Configure Amazon API Gateway** window, in the **Description** option named the service for example: “Budget Amazon API Gateway”, then **Choose the location type** to **Region**, and **Choose the region** in this case is US East (Ohio)
 
-    ![A screenshot of a computer Description automatically generated](media/0117d1780eb77737c5c58ec9f3f9ce1c.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/a13b68f4-442e-48b2-affb-b9af88234cfd)
+
 
 -   HTTP APIs, you only pay when your APIs are in use. There are no minimum fees or upfront commitments. You pay for the API calls you receive, and the amount of data transferred out. Requests are metered in 512 KB increments of data. So, a request with 513 KB of data is metered as two requests.
 
-![A screenshot of a computer Description automatically generated](media/8d4023f5965dfa1b10113047355ffa0a.png)
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/374c2a32-4db1-40b3-ab2b-788402a38e04)
 
-**![A black text on a white background Description automatically generated](media/4b4a5c603d94d660801b3378523a10f7.png)**
+
+![image](https://github.com/Pr0mpt5/AWSBudget/assets/120697540/0dea52bc-ac76-40e8-bb51-d83126df3f16)
+
 
 -   There are also options to use REST APIs and WebSocket APIs for both you only pay when the APIs are in use. There are no minimum fees or upfront commitments. You pay for the API calls you receive, and the amount of data transferred out. There are no data transfer out charges for Private APIs. However, AWS PrivateLink charges apply when using Private APIs in API Gateway. API Gateway also provides optional data caching charged at an hourly rate that varies based on the cache size you select. For WebSocket APIs, you pay for messages sent and received and the total number of connection minutes. You may send and receive messages up to 128 kilobytes (KB) in size. Messages are metered in 32 KB increments. So, a 33 KB message is metered as two messages.
 1.  **Amazon Kinesis Data Firehose**
